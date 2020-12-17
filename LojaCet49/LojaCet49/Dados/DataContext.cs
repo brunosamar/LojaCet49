@@ -7,6 +7,8 @@ namespace LojaCet49.Dados
     {
         public DbSet<Produto> Produtos { get; set; }
 
+        public DbSet<Client> Clients { get; set; }
+
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
 
